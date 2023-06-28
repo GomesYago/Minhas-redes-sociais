@@ -29,9 +29,28 @@ section#celular{
 }
 iframe#tela{
     position: relative;
-    top:01.9%;
-    left: 07.5px;
-    width: 192px;
-    height: 428px;
+    top: 1.6%;
+    left: 3.5%;
+    width: 193px;
+    height: 430px;
+    border-radius: 10px;
 }
+section#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais img{
+    width: 60px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.596);
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover{
+    border: 2px solid white;
+    transform: translate(-2px, -2px);
+    box-shadow: 3px 3px 8px black;
+    transition: transform 0.3s, border 0.2s;
+}
+
 
